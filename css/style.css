@@ -1,0 +1,27 @@
+body {
+  background-color: aqua;
+}
+* {
+  box-sizing: border-box;
+}
+.users-cards {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+.user-card {
+  min-width: 300px;
+  width: 100%;
+  max-width: 400px;
+  min-height: 300px;
+  display: flex;
+  background-color: azure;
+}
+.user-photo {
+  width: 60%;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 68% 100%, 0% 100%);
+}
+.user-info {
+  margin: auto;
+}
